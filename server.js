@@ -14,7 +14,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.engine('html', require('ejs').renderFile);
  
 // express/connect middleware
-app.use(favicon(__dirname + '/app/favicon.ico'));
+// app.use(favicon(__dirname + '/app/favicon.ico'));
 app.use(morgan('dev'));
  
 // serve up static assets
