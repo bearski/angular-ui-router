@@ -15,7 +15,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
         .state('form', {
         // abstract: true,
         url: '/form',
-        templateUrl: 'public/html/form.html',
+        templateUrl: 'view1/form.html',
         controller: 'leaveRequestController'
     })
 
@@ -24,52 +24,52 @@ app.config(function($stateProvider, $urlRouterProvider) {
     // url will be nested (/form/profile)
     .state('form.profile', {
         url: '/profile',
-        templateUrl: 'public/html/form-profile.html'
+        templateUrl: 'view1/form-profile.html'
     })
 
     // url will be /form/interests
     .state('form.interests', {
         url: '/interests',
-        templateUrl: 'public/html/form-interests.html'
+        templateUrl: 'view1/form-interests.html'
     })
 
     // url will be /form/dates
     .state('form.dates', {
         url: '/dates',
-        templateUrl: 'public/html/form-dates.html'
+        templateUrl: 'view1/form-dates.html'
     })
 
     // url will be /form/payment
     .state('form.payment', {
         url: '/payment',
-        templateUrl: 'public/html/form-payment.html'
+        templateUrl: 'view1/form-payment.html'
     })
 
 
     .state('cashup', {
         url: '/cashup',
-        templateUrl: 'public/html/cashup.html',
+        templateUrl: 'view2/cashup.html',
         controller: 'cashupController'
     })
 
     .state('cashup.coins', {
         url: '/coins',
-        templateUrl: 'public/html/cashup-coins.html'
+        templateUrl: 'view2/cashup-coins.html'
     })
 
     .state('cashup.notes', {
         url: '/notes',
-        templateUrl: 'public/html/cashup-notes.html'
+        templateUrl: 'view2/cashup-notes.html'
     })
 
     .state('cashup.electronic', {
         url: '/electronic',
-        templateUrl: 'public/html/cashup-electronic.html'
+        templateUrl: 'view2/cashup-electronic.html'
     })
 
     .state('cashup.payment', {
         url: '/payment',
-        templateUrl: 'public/html/cashup-payment.html'
+        templateUrl: 'view2/cashup-payment.html'
     });
 
 });

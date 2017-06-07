@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+#i use these extensions to back up files
+.backup
+.original
